@@ -1,0 +1,20 @@
+#设置端口号
+server:
+  port: 7001
+#设置服务名称
+spring:
+  application:
+    name: config-server
+#设置git地址
+  cloud:
+    server:
+      git:
+        url: https://github.com/beyondLi71/myspringcloudconfiggradle.git
+        searchPaths:
+        username: beyondLi71
+        password: 15900309566TAIY*
+#指定注册中心
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:1111/eureka/
